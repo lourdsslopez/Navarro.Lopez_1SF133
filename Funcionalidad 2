@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sección de Noticias con Carrusel de Imágenes</title>
+    <style>
+        .carousel {
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-inner {
+            display: flex;
+            width: 300%;
+            animation: carousel-animation 10s infinite;
+        }
+
+        .carousel-inner img {
+            width: 33.33%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes carousel-animation {
+            0% { transform: translateX(0); }
+            33.33% { transform: translateX(-100%); }
+            66.66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Sección de Noticias</h1>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <img src="imagen3.jpg" alt="Imagen 3">
+        </div>
+    </div>
+</body>
+</html>
