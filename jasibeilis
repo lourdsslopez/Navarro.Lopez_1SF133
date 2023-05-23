@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Presentación de Jasibeilis Navarro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333333;
+        }
+
+        p {
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Presentación de Jasibeilis Navarro</h1>
+    <p>¡Hola! Soy Jasibeilis Navarro y tengo 20 años. Me complace compartir mi historia contigo.</p>
+    <p>Soy apasionado/a por [menciona tus intereses o área de especialización]. A lo largo de los años, he adquirido experiencia en [menciona tus logros o experiencias relevantes].</p>
+    <p>Estoy emocionado/a de presentarte más detalles sobre mi trayectoria y compartir nuestras ideas. ¡Espero conocerte pronto!</p>
+</body>
+</html>
