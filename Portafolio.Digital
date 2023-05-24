@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<meta charset="UTF-8">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+	<title>Portafolio Digital</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Tilt+Warp');
+    @import url('https://fonts.googleapis.com/css?family=DM+Sans');
+
+    
+    body {
+        background-color: rgb(85, 105, 141);
+    }
+
+    h1 {
+        font-family: 'Tilt Warp';
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400; 
+        margin-bottom: 0%;   
+    }
+
+    h3{
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      height: 40vh; 
+    }
+
+    .container select {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        height: 25px;
+        width: 195px;
+    }
+
+    </style>
+
+
 </head>
+
 <body>
-<hl>Portafolio Digital</hl>
-<select onchange="window.location.href=this.value; ">
-<option value="">Seleccione un miembro</option>
-<option value="lourdes.html">Lourdes Lopez</option>
-<option value="jasibeilis.html">Jasibeilis Navarro</option>
-</select>
+
+<div class="container">
+    <h1> Portafolio Digital </h1>
+
+    <h3>Seleccione un miembro:</h3>
+
+    <select onchange="window.location.href=this.value;">
+        <option value="">Seleccione un miembro</option>
+        <option value="jasi.html">Jasibeilis Navarro</option>
+        <option value="lourdes.html">Lourdes López</option>
+    </select>
+</div>
+
 </body>
 </html>
